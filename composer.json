@@ -18,7 +18,6 @@
             "role": "Developer"
         }
     ],
-    "prefer-stable": false,
     "license": "MIT",
     "extra": {
         "flarum-extension": {
