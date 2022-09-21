@@ -1,5 +1,5 @@
 {
-    "name": "RomanSh/flarum-editor",
+    "name": "romanshul/flarum-editor",
     "description": "Updated flarum editor",
     "type": "flarum-extension",
     "require": {
