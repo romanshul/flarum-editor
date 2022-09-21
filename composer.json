@@ -1,0 +1,49 @@
+{
+    "name": "RomanSh/flarum-editor",
+    "description": "Updated flarum editor",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^1.0.0",
+        "flarum/markdown": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {"RomanSh\\FlarumEditor\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Shulzhenko Roman",
+            "email": "rm.shulzhenko@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "prefer-stable": false,
+    "license": "MIT",
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum editor",
+            "icon": {
+                "name": "fas fa-smile",
+                "backgroundColor": "#238c59",
+                "color": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": false,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}
+
